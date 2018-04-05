@@ -1,0 +1,13 @@
+Package: bc
+Type: Package
+Title: Creates Layout and Calculates Delays for Plant Breeding Cross Experiments
+Version: 0.1.0
+Author: Hongyun Wang
+Maintainer: Hongyun Wang <hongyun.wang@pioneer.com>
+Description: This package generates a shiny app to create layout and calculate delays for plant breeding cross experiments.
+License: GPL-2
+Encoding: UTF-8
+LazyData: true
+Depends:
+    shiny,shinythemes,openxlsx
+RoxygenNote: 6.0.1.9000

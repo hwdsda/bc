@@ -238,7 +238,7 @@ bCross <- function(){
 			# save workbook to a .xlsx file
 			output$downloadData <- downloadHandler(
 			  filename = function() {
-				paste0("Layout_delay_", nFemale, "to", nMale, "_", delay.start, "_", delay.increment, ".xlsx")
+				paste0("Layout_", input$filter0, "_delay_", nFemale, "to", nMale, "_", delay.start, "_", delay.increment, ".xlsx")
 			  },
 			  content = function(file) {
 				saveWorkbook(wb, file, overwrite = TRUE)

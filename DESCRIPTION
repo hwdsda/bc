@@ -8,6 +8,6 @@ Description: This package generates a shiny app to create layout and calculate d
 License: GPL-2
 Encoding: UTF-8
 LazyData: true
-Depends:
+Imports:
     shiny,shinythemes,openxlsx
 RoxygenNote: 6.0.1.9000

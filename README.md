@@ -9,13 +9,13 @@ install_github("hwdsda/bc")
 ## Data
 A sample dataset **sampleData** contains the right data input format to be used.
 
- * `P1`: The first parent. 
- * `P1_SHD`: GDUSHD of the first parent. 
- * `P1_SLK`: GDUSLK of the first parent. 
- * `P2`: The second parent. 
- * `P2_SHD`: GDUSHD of the second parent. 
- * `P2_SLK`: GDUSLK of the second parent. 
- * `Number_of_Cross`: Number of cross need to make for those two parents. 
+* `P1`: The first parent. 
+* `P1_SHD`: GDUSHD of the first parent. 
+* `P1_SLK`: GDUSLK of the first parent. 
+* `P2`: The second parent. 
+* `P2_SHD`: GDUSHD of the second parent. 
+* `P2_SLK`: GDUSLK of the second parent. 
+* `Number_of_Cross`: Number of cross need to make for those two parents. 
  
 ## Run the shiny app
 ```r

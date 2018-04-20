@@ -7,7 +7,7 @@ install.packages(c("shiny", "shinythemes", "openxlsx", "devtools"))
 install_github("hwdsda/bc")
 ```
 ## Data
-A sample dataset **sampleData** contains the right data input format to be used.
+A sample dataset **sampleData** contains the right data input format to be used. 
  * `P1`             : The first parent. 
  * `P1_SHD`         : GDUSHD of the first parent. 
  * `P1_SLK`         : GDUSLK of the first parent. 
@@ -28,7 +28,8 @@ Breeding crosses are used in corn breeding to create new populations and integra
    * Create the field layout based on female to male ratio in a crossing block. Designation of female and male parents could be fixed or flexible.  
    * Calculate delays based on female's GDUSLK and male's GDUSHD.
    
-Growing Degree Units (GDUs) are a common index used to recorde the timing for corn to shed and silk.
+Growing Degree Units (GDUs) are a common index used to recorde the timing for corn to shed and silk. 
+
 ![GDU](https://latex.codecogs.com/gif.latex?\textup{GDU}&space;=&space;\frac{\textup{Daily&space;Max&space;Air&space;Temperature}&plus;&space;\textup{Daily&space;Min&space;Temperature}}{2}&space;-&space;50)      
    * when maximum air temperature > 86^o^F, set it at 86^o^F;      
    * when minimum air temperature < 50^o^F, set it at 50^o^F.

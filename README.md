@@ -7,7 +7,8 @@ install.packages(c("shiny", "shinythemes", "openxlsx", "devtools"))
 install_github("hwdsda/bc")
 ```
 ## Data
-A sample dataset **sampleData** contains the right data input format to be used.  
+A sample dataset `**sampleData**` contains the right data input format to be used. 
+
  * `P1`: The first parent. 
  * `P1_SHD`: GDUSHD of the first parent. 
  * `P1_SLK`: GDUSLK of the first parent. 

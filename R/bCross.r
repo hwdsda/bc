@@ -15,7 +15,7 @@ bCross <- function(){
 		ui = fluidPage(
 			#shinythemes::themeSelector(),
 			theme = shinytheme("slate"),
-			headerPanel("Maize Breeding Cross Experiment Maker"),
+			headerPanel("Corn Breeding Cross Experiment Maker"),
 			#h1(HTML("<font color='green'> Plant Breeding Cross Experiment Maker </font>")),
 			sidebarPanel(
 				fileInput('file1', 'Choose a .csv File:', accept=c('csv', selected = '.csv')),

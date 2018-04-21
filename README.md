@@ -25,7 +25,7 @@ write.csv(sampleData, ".../sampleData.csv", row.names=F)
 bCross()
 ```
 ## Background
-Breeding crosses are used in corn breeding to create new populations and integrate diversity between two parents. In a realistic breeding cross experiment, there are multiple crosses need to be make. Some are sharing one of the two crossing parents. Optimizing the layout of those crosses can minimize the field and pollination resources need to be used. Furthermore, in order to ensure female silk catches male pollen, delayed planting on one of the two parents is actually performed. In summary, two tasks need to be completed:  
+Breeding crosses are used in corn breeding to create new populations and integrate diversity between two parents. In a realistic breeding cross experiment, there are multiple crosses need to be made. Some are sharing one of the two crossing parents. Optimizing the field layout of those crosses can minimize the field and pollination resources. Furthermore, in order to ensure female silk catches male pollen, delayed planting on one of the two parents is actually performed. In summary, two tasks need to be completed:  
    * Create the field layout based on female to male ratio in a crossing block. Designation of female and male parents could be fixed or flexible.  
    * Calculate delays based on female's GDUSLK and male's GDUSHD.
    

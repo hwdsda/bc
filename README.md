@@ -30,7 +30,7 @@ Breeding crosses are used in corn breeding to create new populations and integra
    * Create the field layout based on female to male ratio in a crossing block. Designation of female and male parents could be fixed or flexible.  
    * Calculate delays based on female's GDUSLK and male's GDUSHD.
    
-Growing Degree Units (GDUs) is a common index used to record the timing for corn to shed and silk. 
+Cumulative Growing Degree Units (GDUs) is a common index used to record the timing for corn to shed and silk. 
 
 ![GDU](https://latex.codecogs.com/gif.latex?\textup{GDU}&space;=&space;\frac{\textup{Daily&space;Max&space;Air&space;Temperature}&plus;&space;\textup{Daily&space;Min&space;Temperature}}{2}&space;-&space;50)      
    * when maximum air temperature > 86 F, set it at 86 F;      

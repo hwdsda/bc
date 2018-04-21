@@ -4,6 +4,7 @@ This is an R package used to plan corn breeding cross experiments, including cre
 ## Installation
 ```r
 install.packages(c("shiny", "shinythemes", "openxlsx", "devtools"))
+library(devtools)
 install_github("hwdsda/bc")
 ```
 ## Data

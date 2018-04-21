@@ -21,7 +21,7 @@ A sample dataset **sampleData** contains the right data input format used in thi
 ## Run the shiny app
 ```r
 library(bc)
-write.csv(sampleData, ".../sampleData.csv", row.names=F)
+write.csv(sampleData, "sampleData.csv", row.names=F)
 
 bCross()
 ```

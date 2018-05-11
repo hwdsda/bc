@@ -34,6 +34,6 @@ Breeding crosses are used in corn breeding to create new populations and integra
 `GDUSLK`: Accumulated Growing Degree Units (GDUs) required for corn to develop silk.  
 `GDUSHD`: Accumulated Growing Degree Units (GDUs) required for corn to shed pollen.
 
-![GDU](https://latex.codecogs.com/gif.latex?\textup{GDU}&space;=&space;\frac{\textup{Daily&space;Max&space;Air&space;Temperature}&plus;&space;\textup{Daily&space;Min&space;Temperature}}{2}&space;-&space;50)      
+![GDU](https://latex.codecogs.com/gif.latex?\textup{GDU}=\frac{\textup{Daily&space;Max&space;Air&space;Temperature}&space;&plus;&space;\textup{Daily&space;Min&space;Air&space;Temperature}}{2}-50)         
    * when air temperature > 86 <sup>o</sup>F, set it at 86 <sup>o</sup>F;      
    * when air temperature < 50 <sup>o</sup>F, set it at 50 <sup>o</sup>F.

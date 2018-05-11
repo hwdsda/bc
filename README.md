@@ -30,7 +30,7 @@ Breeding crosses are used in corn breeding to create new populations and integra
    * Create the field layout based on female to male ratio in a crossing block. Designation of female and male parents could be fixed or flexible.  
    * Calculate delays based on female's GDUSLK and male's GDUSHD.
 
-Growing Degree Units (GDUs) are used to measure corn growth stages relative to temperature.   
+**Growing Degree Units (GDUs)** are used to measure corn growth stages relative to temperature.   
 `GDUSLK`: Accumulated Growing Degree Units (GDUs) required for corn to develop silk.  
 `GDUSHD`: Accumulated Growing Degree Units (GDUs) required for corn to shed pollen.
 

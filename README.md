@@ -31,9 +31,9 @@ Breeding crosses are used in corn breeding to create new populations and integra
    * Calculate delays based on female's GDUSLK and male's GDUSHD.
 
 Growing Degree Units (GDUs) are used to measure corn growth stages relative to temperature.   
-`GDUSLK`: Accumulated Growing Degree Units (GDUs) required for corn to develop silk.
+`GDUSLK`: Accumulated Growing Degree Units (GDUs) required for corn to develop silk.  
 `GDUSHD`: Accumulated Growing Degree Units (GDUs) required for corn to shed pollen.
 
 ![GDU](https://latex.codecogs.com/gif.latex?\textup{GDU}&space;=&space;\frac{\textup{Daily&space;Max&space;Air&space;Temperature}&plus;&space;\textup{Daily&space;Min&space;Temperature}}{2}&space;-&space;50)      
-   * when air temperature > 86 ^o^F, set it at 86 ^o^F;      
-   * when air temperature < 50 ^o^F, set it at 50 ^o^F.
+   * when air temperature > 86 <sup>o</sup>F, set it at 86 <sup>o</sup>F;      
+   * when air temperature < 50 <sup>o</sup>F, set it at 50 <sup>o</sup>F.

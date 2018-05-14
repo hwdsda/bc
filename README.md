@@ -1,5 +1,5 @@
 # bc
-This is an R package used to plan corn breeding cross experiments, including layout creation and delays calculation.
+This is an R package developed to plan corn breeding cross experiments, including layout creation and delays calculation.
 
 ## Installation
 ```r
